@@ -1,7 +1,7 @@
 module DickServer
   class Dump
     def hi
-      puts 'hi'
+      'hi'
     end
   end
 end
