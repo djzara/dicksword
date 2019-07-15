@@ -2,8 +2,6 @@
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
-require 'dotenv/load'
-
 Gem::Specification.new do |spec|
   spec.name          = 'dicksword'
   spec.authors       = ['djzara']
