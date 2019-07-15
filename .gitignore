@@ -56,3 +56,4 @@ build-iPhoneSimulator/
 
 .idea
 vendor
+.env
