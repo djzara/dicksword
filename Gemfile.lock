@@ -30,7 +30,7 @@ GEM
     netrc (0.11.0)
     opus-ruby (1.0.1)
       ffi
-    rake (10.5.0)
+    rake (12.3.3)
     rbnacl (3.4.0)
       ffi
     rest-client (2.1.0.rc1)
@@ -67,7 +67,7 @@ DEPENDENCIES
   dicksword!
   discordrb
   dotenv
-  rake (~> 10.0)
+  rake (~> 12.3)
   rspec (~> 3.0)
 
 BUNDLED WITH
