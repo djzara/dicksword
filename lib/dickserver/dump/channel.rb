@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'dickserver/output'
 
 module Dump
@@ -6,7 +8,7 @@ module Dump
 
     attr_accessor :channel_name
     attr_reader :formatter
-    def initialize(channel_name='', formatter=Output::JsonFormatter.new)
+    def initialize(channel_name = '', formatter = Output::JsonFormatter.new)
       @channel_name = channel_name
       @formatter = formatter
     end
